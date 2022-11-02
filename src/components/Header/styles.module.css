@@ -1,0 +1,18 @@
+.header {
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    padding: 20px 40px;
+}
+
+.korzina {
+    width: 22px;
+    height: 22px;
+}
+
+.h1 {
+    margin: 0;
+    font-size: 20px;
+}

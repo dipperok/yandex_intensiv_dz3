@@ -1,0 +1,9 @@
+.genres {
+    height: 659px;
+    width: 285px;
+
+}
+
+.main {
+    display: flex;
+}
