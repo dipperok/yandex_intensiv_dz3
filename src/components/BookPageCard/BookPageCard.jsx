@@ -1,11 +1,12 @@
 import {useState} from "react";
 import styles from './styles.module.css'
 
-export const BookCard = ({book}) => {
+
+export const BookPageCard = ({book}) => {
     const [count, setCount] = useState(0);
-    return <div className={`${styles.card}`}>
-        <div>
-            <p><b>{book.name}</b></p>
+    return <div>
+         <div>
+            <h1>{book.name}</h1>
             <p>{book.authors[0]}</p>
             <p>{book.subgenre}</p>
             <p>Оценка: {book.mark}</p>
