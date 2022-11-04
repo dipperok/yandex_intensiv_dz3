@@ -4,3 +4,12 @@
     padding: 20px;
     margin-bottom: 16px;
 }
+
+.reviewHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewUserName {
+    font-weight: bold;
+}

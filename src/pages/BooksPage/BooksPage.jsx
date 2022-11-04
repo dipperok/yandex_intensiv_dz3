@@ -4,11 +4,11 @@ import styles from './styles.module.css'
 
 
 export const BooksPage = (props) => {
-    const [activeGenre, setActiveCinema] = useState(props.mockGenres[0]);
+    const [activeGenre, setActiveGenre] = useState(props.mockGenres[0]);
     return <div className={`${styles.main}`}>
         <div className={`${styles.genres}`}>
         {
-            props.mockGenres.map((genre) =><p key={genre.id} onClick={() => {setActiveCinema(genre)}}>{genre.name}</p>)
+            props.mockGenres.map((genre) =><p key={genre.id} onClick={() => {setActiveGenre(genre)}}>{genre.name}</p>)
         }
         </div>
 
