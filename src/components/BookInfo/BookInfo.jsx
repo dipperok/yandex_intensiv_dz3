@@ -5,6 +5,6 @@ import styles from './styles.module.css'
 export const BookInfo = ({book}) => {
     return <div className={`${styles.booksInfo}`}>
         <BookPageCard book={book}/>
-        <Annotation/>
+        <Annotation book={book}/>
     </div>
 }

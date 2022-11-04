@@ -8,11 +8,10 @@ export const BooksPage = (props) => {
     return <div className={`${styles.main}`}>
         <div className={`${styles.genres}`}>
         {
-            //props.cinemas.map((cinema) => <button key={cinema.id} onClick={() => setActiveCinema(cinema)}>{cinema.name}</button>)
-            props.mockGenres.map((genre) =><p key={genre.id} onClick={() => {setActiveCinema(genre)
-            console.log(activeGenre.name)}}>{genre.name}</p>)
+            props.mockGenres.map((genre) =><p key={genre.id} onClick={() => {setActiveCinema(genre)}}>{genre.name}</p>)
         }
         </div>
+
         <BooksCards books={activeGenre.books}/>
     </div>
 }
