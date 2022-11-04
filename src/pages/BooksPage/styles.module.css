@@ -22,3 +22,10 @@ body {
 .genre {
     cursor: pointer;
 }
+
+.selectedGenre {
+    font-weight: bold;
+}
+.notSelectedGenre {
+    font-weight: normal;
+}
