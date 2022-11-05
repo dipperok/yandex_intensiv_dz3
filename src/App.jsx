@@ -8,6 +8,6 @@ import { BookPage } from './pages/BookPage/BookPage.jsx'
 
 export function App() {
     return <Layout>
-        <BookPage mockGenres={mockGenres}/>
+        <BooksPage mockGenres={mockGenres}/>
     </Layout>
 }

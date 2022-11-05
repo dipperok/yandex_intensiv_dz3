@@ -13,7 +13,7 @@ export const BookCard = ({book, nums}) => {
             <p className={`${styles.bookMark} ${styles.bookCardText}`}>Оценка: {book.mark}</p>
             <p className={styles.bookPrice}><b>{book.price} ₽</b></p>
         </div>
-        <div className={nums ? styles.btnsDown : styles.btnsCenter}>
+        <div className={nums ? styles.btnsCenter : styles.btnsDown}>
             <button className={styles.btn} onClick={() => setCount(count - 1)} disabled={count === 0}>-</button>
             <span className={styles.btnCount}>{count}</span>
             <button className={styles.btn} onClick={() => setCount(count + 1)} disabled={count === 10}>+</button>
