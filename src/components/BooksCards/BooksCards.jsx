@@ -2,9 +2,15 @@ import { BookCard } from "../BookCard/BookCard"
 import styles from './styles.module.css'
 
 export const BooksCards = ({books}) => {
-    return <div className={`${styles.booksCards}`}>
+    const a = [
         {
-            books.map((book) => <BookCard key={book.id} book={book}/>)
+            num1: "1",
+            num2: "2",
+        }
+    ]
+    return <div className={styles.booksCards}>
+        {
+            books.map((book) => <BookCard key={book.id} book={book} nums="1"/>)
         }
     </div>
 }

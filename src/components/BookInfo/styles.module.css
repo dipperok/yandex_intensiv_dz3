@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 16px;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: calc(40px - 16px);
     margin-left: 40px;
     margin-right: 40px;
 }
